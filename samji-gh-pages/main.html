@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SamjiHitek</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: "TimesNewRoman" sans-serif;
+        width: 1080px;
+        height: 1920px;
+        margin: auto;
+      }
+
+      .header-text {
+        width: 1080px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .header-text__box {
+        width: 200px;
+        height: 100px;
+        display: flex;
+        margin-top: 15px;
+      }
+
+      .header-text__logo {
+        width: 70px;
+        height: 70px;
+      }
+
+      .header-text__nav {
+        margin-top: 20px;
+        width: 350px;
+        height: 70px;
+      }
+
+      .header-text__nav > div {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .header-text__nav a {
+        margin-right: 25px;
+      }
+ a:link {
+        color: #000;
+        text-decoration: none;
+      }
+a:visited {
+        color: #000;
+      }
+      a{
+          font-family: "나눔고딕";
+          font-weight: 600;
+      }
+      b{
+          color: #2d479e;
+      }
+      .logo-box{
+          margin-top: 5px;
+      }
+      main {
+        width: 1080px;
+      }
+      main > img {
+        width: 1080px;
+        height: 400px;
+      }
+
+      main > h1 {
+        text-align: center;
+        color: #2d479e;
+        font-size: 50px;
+        margin-bottom: 10px;
+        margin: 15px 0;
+      }
+      .midddle-box {
+        margin: auto;
+        width: 1000px;
+        height: 270px;
+      }
+
+      .midddle-box > img {
+        margin: 0px 5px;
+        width: 480px;
+        height: 270px;
+      }
+
+      .p-box {
+        width: 980px;
+        height: 130px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-right: 60px;
+        margin-top: 30px;
+      }
+
+      .p-box > img {
+        width: 150px;
+        height: 130px;
+      }
+      .p-box > img:hover{
+        width:200px;
+        height: 150px;
+    transform:scale(1.5, 1.5);  
+    transition: transform 1s; 
+      }
+      .midddle-box > img:hover{
+        width:400px;
+        height: 300px;
+    transform:scale(1.5, 1.5);  
+    transition: transform 1s; 
+      }
+      .consum {
+        width: 1080px;
+        height: 500px;
+        margin-top: 40px;
+        background-color: #f5f5f5;
+      }
+      .consum-txt {
+        text-align: center;
+        font-family: "나눔고딕";
+        font-size: 30px;
+        box-sizing: border-box;
+        padding-top: 60px;
+      }
+      .consum-txt > p {
+          margin-top: 10px;
+          
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .bottom {
+        width: 800px;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+      }
+
+      .bottom > input {
+        width: 380px;
+        height: 35px;
+        margin: 5px 5px;
+        font-family: "나눔고딕";
+        border-color: rgba(0, 0, 0, 0.2);
+      }
+
+      #big {
+        width: 780px;
+        height: 160px;
+      }
+
+      .go-btn{
+          margin: auto;
+          width: 250px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-around;
+          background-color: #1a2038;
+          color: #fff;
+          border-style: solid 1px #1a2038;
+          margin-top: 10px;
+      }
+
+      .fotter-text :nth-child(2){
+          opacity: 0.5;
+      }
+      .fotter-rt{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          
+         
+      }
+      .footer-box{
+          margin-top: 10px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-text">
+      <div class="header-text__box">
+        <a href="main.html" class="header-text__logo"><img src="logo.png" /></a>
+        <div class="logo-box">
+          <a href="main.html"><h1>SAMJI</h1></a>
+          <a href="main.html"><p>(주)삼지하이텍</p></a>
+        </div>
+      </div>
+      <!--header-text__box-->
+      <div class="header-text__nav">
+        <p>The POWERED BY <b>SMAJI HITEK</b> ULTRASONIC</p>
+        <div>
+          <a href="">회사소개</a>
+          <a href="">고객센터</a>
+          <a href="">오시는길</a>
+        </div>
+      </div>
+      <!--header-text__nav-->
+    </header>
+
+    <main>
+      <img src="main.png" />
+      <h1>
+        Advanced Material<br />
+        Precision Processing
+      </h1>
+      <div class="midddle-box">
+        <img src="middle.png" />
+        <img src="middle2.png" />
+      </div>
+      <!--midddle-box-->
+      <h1>SAMJI<br />Product</h1>
+      <div class="p-box">
+        <img src="p1.png" />
+        <img src="p2.png" />
+        <img src="p3.png" />
+        <img src="p4.png" />
+        <img src="p5.png" />
+      </div>
+      <!--p-box-->
+      <div class="consum">
+        <div class="consum-txt">
+          <h2>고객문의</h2>
+          <p>문의를 남겨주시면 담당자가 검토 후 빠른 회신을 드립니다.</p>
+        </div>
+        <div class="bottom">
+          <input type="text" placeholder=" 상호" />
+          <input type="text" placeholder=" 직위/이름" />
+          <input type="text" placeholder=" 연락처" />
+          <input type="text" placeholder=" 문의 종류" />
+          <input type="text" placeholder=" 문의 내용" id="big" />
+          <button class="go-btn">고객문의<i class="fas fa-angle-right"></i></button>
+      </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <span>개인정보 취급방침 l</span>
+            <span>이용약관 l</span>
+            <span>사이트맵</span>
+             <select name="site">
+                 <option value="Family SIte">Family SIte</option>
+                 <option value="naver">Naver</option>
+                 <option value="daum">Daum</option>
+             </select>
+             <div class="fotter-rt">
+                <h1>SAMJI HITEK</h1>
+                <p>ULTRASONIC</p>
+               </div>
+             </div>
+             <div class="fotter-text">
+                 <p>SAMJI HITEK 39, WANGNIM 2-gil, bondaim-eup, Hawseong-si, Gyeonggi-do, Korea / skcv11@naver.com</p>
+                 <p>COPYRIGHT<i class="far fa-copyright"></i>2014 SAMJI HITECK ALL RIGHT RESERVED.</p>
+             </div>
+          
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/e749269684.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
